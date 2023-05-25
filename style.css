@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+}
+body, html{
+    height: 100%;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+a:hover{
+    text-decoration: underline;
+    color: #0000ff;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+p{
+    line-height: 150%;
+    margin-bottom: 2em;
+}
+/*============================*/
+.fix{
+    overflow: hidden;
+}
+.clear{
+    clear: both;
+}
+.floatleft{
+    float: left;
+}
+.floatright{
+    float:right
+}
+.text-bold{
+    font-weight: bold;
+}
+.clearfix{
+    clear: both;
+}
+/*---------------------------*/
+.wraper{
+    width: 80%;
+    margin: 0 auto;
+}
